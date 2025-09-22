@@ -21,7 +21,7 @@ clear
 #TODO figure out TTE issue
 #tte -i ~/.local/share/birdarch/logo.txt --frame-rate 920 laseretch
 echo
-echo "You're done! So we're ready to reboot now..." | tte --frame-rate 640 wipe
+echo "You're done! So we're ready to reboot now..." #| tte --frame-rate 640 wipe
 
 if sudo test -f /etc/sudoers.d/99-birdarch-installer; then
   sudo rm -f /etc/sudoers.d/99-birdarch-installer &>/dev/null
