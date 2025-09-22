@@ -11,9 +11,9 @@ fi
 # TODO test if I need this and if I do find a way to not need it
 
 # Add the Omarchy repository
-#if ! grep -q "omarchy" /etc/pacman.conf; then
-#  echo -e "\n[omarchy]\nSigLevel = Optional TrustAll\nServer = https://pkgs.omarchy.org/\$arch/\n" | sudo tee -a /etc/pacman.conf >/dev/null
-#fi
+if ! grep -q "omarchy" /etc/pacman.conf; then
+  echo -e "\n[omarchy]\nSigLevel = Optional TrustAll\nServer = https://pkgs.omarchy.org/\$arch/\n" | sudo tee -a /etc/pacman.conf >/dev/null
+fi
 
 # Set mirrors to global ones only
 echo -e "Server = https://geo.mirror.pkgbuild.com/\$repo/os/\$arch\nServer = https://mirror.rackspace.com/archlinux/\$repo/os/\$arch" |
