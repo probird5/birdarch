@@ -16,11 +16,11 @@ source $BIRDARCH_INSTALL/preflight/migrations.sh
 source $BIRDARCH_INSTALL/preflight/first-run-mode.sh
 
 # Packaging
-source $OMARCHY_INSTALL/packages.sh
-source $OMARCHY_INSTALL/packaging/fonts.sh
-source $OMARCHY_INSTALL/packaging/lazyvim.sh
-source $OMARCHY_INSTALL/packaging/webapps.sh
-source $OMARCHY_INSTALL/packaging/tuis.sh
+source $BIRDARCH_INSTALL/packages.sh
+source $BIRDARCH_INSTALL/packaging/fonts.sh
+source $BIRDARCH_INSTALL/packaging/lazyvim.sh
+source $BIRDARCH_INSTALL/packaging/webapps.sh
+source $BIRDARCH_INSTALL/packaging/tuis.sh
 
 # Reboot
 clear
