@@ -32,6 +32,20 @@ source $BIRDARCH_INSTALL/preflight/aur.sh
 source $BIRDARCH_INSTALL/preflight/presentation.sh
 source $BIRDARCH_INSTALL/preflight/migrations.sh
 
+# Configuration
+show_logo beams 240
+show_subtext "Let's install Omarchy! [1/5]"
+source $BIRDARCH_INSTALL/config/identification.sh
+source $BIRDARCH_INSTALL/config/config.sh
+source $BIRDARCH_INSTALL/config/detect-keyboard-layout.sh
+source $BIRDARCH_INSTALL/config/fix-fkeys.sh
+source $BIRDARCH_INSTALL/config/network.sh
+source $BIRDARCH_INSTALL/config/power.sh
+source $BIRDARCH_INSTALL/config/timezones.sh
+source $BIRDARCH_INSTALL/config/login.sh
+#source $BIRDARCH_INSTALL/config/nvidia.sh
+#TODO replace the nvidia script with my own
+
 # Updates
 #show_logo highlight
 #show_subtext "Updating system packages [5/5]"
