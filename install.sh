@@ -16,7 +16,7 @@ source $BIRDARCH_INSTALL/preflight/migrations.sh
 source $BIRDARCH_INSTALL/preflight/first-run-mode.sh
 
 # Packaging
-source $BIRARCH_INSTALL/packages.sh
+source $BIRARCH_INSTALL/package-scripts/packages.sh
 source $BIRARCH_INSTALL/packaging/fonts.sh
 source $BIRARCH_INSTALL/packaging/lazyvim.sh
 source $BIRARCH_INSTALL/packaging/webapps.sh
