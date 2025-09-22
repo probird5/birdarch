@@ -33,10 +33,10 @@ source $BIRDARCH_INSTALL/preflight/presentation.sh
 source $BIRDARCH_INSTALL/preflight/migrations.sh
 
 # Updates
-show_logo highlight
-show_subtext "Updating system packages [5/5]"
-sudo updatedb
-sudo pacman -Syu --noconfirm
+#show_logo highlight
+#show_subtext "Updating system packages [5/5]"
+#sudo updatedb
+#sudo pacman -Syu --noconfirm
 
 # Reboot
 show_logo laseretch 920
