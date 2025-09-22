@@ -76,7 +76,6 @@ sudo pacman -S --noconfirm --needed \
   python-terminaltexteffects \
   ripgrep \
   satty \
-  signal-desktop \
   slurp \
   spotify \
   starship \
@@ -88,7 +87,6 @@ sudo pacman -S --noconfirm --needed \
   tree-sitter-cli \
   ttf-cascadia-mono-nerd \
   ttf-jetbrains-mono \
-  typora \
   tzupdate \
   ufw \
   ufw-docker \
