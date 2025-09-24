@@ -57,4 +57,4 @@ source $BIRDARCH_INSTALL/config/nvidia.sh
 show_logo laseretch 920
 show_subtext "You're done! So we'll be rebooting now..."
 sleep 2
-reboot
+#reboot
