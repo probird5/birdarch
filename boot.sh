@@ -19,7 +19,7 @@ sudo pacman -Sy --noconfirm --needed git
 # Use custom repo if specified, otherwise default to basecamp/birdarch
 BIRDARCH_REPO="${BIRDARCH_REPO:-probird5/birdarch}"
 
-echo -e "\nCloning Omarchy from: https://github.com/${BIRDARCH_REPO}.git"
+echo -e "\nCloning birdarch from: https://github.com/${BIRDARCH_REPO}.git"
 rm -rf ~/.local/share/birdarch/
 git clone "https://github.com/${BIRDARCH_REPO}.git" ~/.local/share/birdarch >/dev/null
 
