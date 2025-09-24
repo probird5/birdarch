@@ -36,6 +36,7 @@ source $BIRDARCH_INSTALL/preflight/migrations.sh
 show_logo beams 240
 show_subtext "Let's install Omarchy! [1/5]"
 source $BIRDARCH_INSTALL/config/identification.sh
+source $BIRDARCH_INSTALL/config/dotfiles-setup.sh
 source $BIRDARCH_INSTALL/config/config.sh
 source $BIRDARCH_INSTALL/config/detect-keyboard-layout.sh
 source $BIRDARCH_INSTALL/config/fix-fkeys.sh
