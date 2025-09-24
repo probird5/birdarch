@@ -3,6 +3,9 @@
 # Copy over Omarchy configs
 cp -R ~/.local/share/birdarch/config/* ~/.config/
 
+# Use default bashrc from Omarchy
+cp ~/.local/share/omarchy/default/bashrc ~/.bashrc
+
 # Ensure application directory exists for update-desktop-database
 mkdir -p ~/.local/share/applications
 
