@@ -4,14 +4,13 @@ ORIGINAL_DIR=$(pwd)
 REPO_URL="https://github.com/probird5/dotfiles"
 REPO_NAME="dotfiles"
 
-
 is_stow_installed() {
-  pacman -Qi "stow" &> /dev/null
+  pacman -Qi stow &>/dev/null
 }
 
 if ! is_stow_installed; then
-  echo "Install stow first"
-  exit 1
+  echo "stow not found, installing..."
+  sudo pacman -S --noconfirm stow
 fi
 
 cd ~
@@ -39,4 +38,3 @@ else
   echo "Failed to clone the repository."
   exit 1
 fi
-
