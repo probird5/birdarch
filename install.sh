@@ -43,9 +43,8 @@ source $BIRDARCH_INSTALL/config/fix-fkeys.sh
 source $BIRDARCH_INSTALL/config/network.sh
 source $BIRDARCH_INSTALL/config/power.sh
 source $BIRDARCH_INSTALL/config/timezones.sh
-echo "AT THE LOGIN SCIRPT NOW"
 source $BIRDARCH_INSTALL/config/login.sh
-#source $BIRDARCH_INSTALL/config/nvidia.sh
+source $BIRDARCH_INSTALL/config/nvidia.sh
 #TODO replace the nvidia script with my own
 
 # Updates

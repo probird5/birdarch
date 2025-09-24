@@ -215,7 +215,7 @@ fi
 if [ ! -f /etc/systemd/system/birdarch-seamless-login.service ]; then
   cat <<EOF | sudo tee /etc/systemd/system/birdarch-seamless-login.service
 [Unit]
-Description=Birarch Seamless Auto-Login
+Description=Birdarch Seamless Auto-Login
 Documentation=https://github.com/basecamp/omarchy
 Conflicts=getty@tty1.service
 After=systemd-user-sessions.service getty@tty1.service plymouth-quit.service systemd-logind.service
