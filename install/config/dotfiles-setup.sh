@@ -25,7 +25,6 @@ fi
 # Check if the clone was successful
 if [ $? -eq 0 ]; then
   cd "$REPO_NAME"
-  stow nvim
   stow starship
   stow i3
   stow rofi
