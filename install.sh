@@ -52,7 +52,6 @@ show_subtext "Installing terminal tools [2/5]"
 source $BIRDARCH_INSTALL/development/terminal.sh
 source $BIRDARCH_INSTALL/development/development.sh
 source $BIRDARCH_INSTALL/development/nvim.sh
-source $BIRDARCH_INSTALL/development/ruby.sh
 source $BIRDARCH_INSTALL/development/docker.sh
 source $BIRDARCH_INSTALL/development/firewall.sh
 
