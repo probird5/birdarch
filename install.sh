@@ -47,6 +47,7 @@ source $BIRDARCH_INSTALL/config/login.sh
 source $BIRDARCH_INSTALL/config/nvidia.sh
 #TODO replace the nvidia script with my own
 
+# Developement
 show_logo decrypt 920
 show_subtext "Installing terminal tools [2/5]"
 source $BIRDARCH_INSTALL/development/terminal.sh
@@ -54,6 +55,16 @@ source $BIRDARCH_INSTALL/development/development.sh
 source $BIRDARCH_INSTALL/development/nvim.sh
 source $BIRDARCH_INSTALL/development/docker.sh
 source $BIRDARCH_INSTALL/development/firewall.sh
+
+# Desktop
+show_logo slice 60
+show_subtext "Installing desktop tools [3/5]"
+source $BIRDARCH_INSTALL/desktop/desktop.sh
+source $BIRDARCH_INSTALL/desktop/hyprlandia.sh
+source $BIRDARCH_INSTALL/desktop/theme.sh
+source $BIRDARCH_INSTALL/desktop/bluetooth.sh
+source $BIRDARCH_INSTALL/desktop/fonts.sh
+source $BIRDARCH_INSTALL/desktop/printer.sh
 
 # Updates
 #show_logo highlight
